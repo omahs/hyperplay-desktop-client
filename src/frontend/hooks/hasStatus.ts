@@ -7,7 +7,7 @@ import { getStatusLabel, handleNonAvailableGames } from './constants'
 
 export function hasStatus(
   appName: string,
-  gameInfo: GameInfo,
+  gameInfo: GameInfo | undefined,
   gameSize?: string
 ) {
   const { libraryStatus, epic, gog } = React.useContext(ContextProvider)
@@ -23,7 +23,7 @@ export function hasStatus(
   const {
     thirdPartyManagedApp = undefined,
     is_installed,
-    runner
+    runner = 'hyperplay'
   } = { ...gameInfo }
 
   React.useEffect(() => {
