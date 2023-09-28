@@ -32,6 +32,7 @@ import QaAuthHandler from './QaAuthHandler'
 
 function App() {
   const { sidebarCollapsed, isSettingsModalOpen } = useContext(ContextProvider)
+  console.log('rendering app')
 
   return (
     <div className={classNames('App', { collapsed: sidebarCollapsed })}>
