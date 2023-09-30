@@ -9,6 +9,7 @@ import { useLocation } from 'react-router-dom'
 class OnboardingStore {
   isOnboardingOpen = true
   initialized = false
+  shouldReportNextConnectionEvent = false
 
   constructor() {
     makeAutoObservable(this)
