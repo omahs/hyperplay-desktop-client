@@ -71,10 +71,6 @@ const ExtensionHandler = function () {
   }
 
   const bindEthereumListeners = function () {
-    window.addEventListener('message', (event: MessageEvent) => {
-      console.log('window message received = ', JSON.stringify(event, null, 4))
-    })
-
     window.ethereum.on('accountsChanged', (accounts: string[]) => {
       window.api.extensionOnEvent('accountsChanged', accounts)
     })

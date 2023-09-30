@@ -812,3 +812,8 @@ export type AvailablePlatforms = {
   value: string
   icon: IconDefinition
 }[]
+
+export type WalletOnboardCloseReason =
+  | 'skipped'
+  | 'connected'
+  | 'requestedMetaMaskConnection'
