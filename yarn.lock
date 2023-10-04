@@ -1649,9 +1649,9 @@
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
 "@hyperplay/ui@^0.1.14":
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/@hyperplay/ui/-/ui-0.1.14.tgz#3af3752766978060063cbdb69aaa2b93ca14c16e"
-  integrity sha512-c5VcCFSDgk0VxtFHGxy5PG3KuajXTgZHKLQLK7erm3eXlM+/auZH5Yr72NXIcrLCBBJmMMY+fa0ZNmC494GZnA==
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@hyperplay/ui/-/ui-0.1.20.tgz#ccb5d0e0c2d5ec8a844fc9b7b6dac0224df74142"
+  integrity sha512-vsI+QgPY6PTQn83Y42tg0/40IXLN27bLUxDSeY+iBa8NmK88WP90BkkQjA/FaT8u7H14CPCaWGNtP9BgGt6kHQ==
 
 "@ioredis/commands@^1.1.1":
   version "1.2.0"
